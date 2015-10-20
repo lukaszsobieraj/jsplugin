@@ -1,0 +1,7 @@
+plugin_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: PluginBundle:Default:index }
+
+plugin_testpage:
+    path:     /plugin
+    defaults: { _controller: PluginBundle:Default:index }

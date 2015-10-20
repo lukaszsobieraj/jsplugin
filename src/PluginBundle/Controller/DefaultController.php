@@ -1,0 +1,13 @@
+<?php
+
+namespace PluginBundle\Controller;
+
+use Symfony\Bundle\FrameworkBundle\Controller\Controller;
+
+class DefaultController extends Controller
+{
+    public function indexAction()
+    {
+        return $this->render('PluginBundle:Default:index.html.twig');
+    }
+}
